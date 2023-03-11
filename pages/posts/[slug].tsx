@@ -1,5 +1,3 @@
-function SinglePost() {
+export default function SinglePostPage() {
 	return <></>;
 }
-
-export default SinglePost;

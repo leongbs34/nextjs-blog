@@ -3,7 +3,7 @@ import Logo from './logo';
 
 import classes from './main-navigation.module.css';
 
-function MainNavigation() {
+export default function MainNavigation() {
 	return (
 		<header className={classes.header}>
 			<Link href='/'>
@@ -22,5 +22,3 @@ function MainNavigation() {
 		</header>
 	);
 }
-
-export default MainNavigation;
