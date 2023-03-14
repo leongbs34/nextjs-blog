@@ -1,15 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/legacy/image';
 import classes from './post-item.module.css';
+import { PostData } from '@/components/posts.model';
 
 export type PostItemProps = {
-	post: {
-		title: string;
-		image: string;
-		excerpt: string;
-		date: Date;
-		slug: string;
-	};
+	post: PostData;
 };
 
 export default function PostItem(props: PostItemProps) {

@@ -1,8 +1,8 @@
-import { PostsProps } from '../posts.model';
+import { PostsDataProps } from '../posts.model';
 import PostsGrid from '../posts/posts-grid';
 import classes from './featured-posts.module.css';
 
-export default function FeaturedPosts(props: PostsProps) {
+export default function FeaturedPosts(props: PostsDataProps) {
 	return (
 		<section className={classes.latest}>
 			<h2>Featured Posts</h2>

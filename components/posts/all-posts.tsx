@@ -1,8 +1,8 @@
-import { PostsProps } from '../posts.model';
 import classes from './all-posts.module.css';
 import PostsGrid from './posts-grid';
+import { PostsDataProps } from '@/components/posts.model';
 
-export default function AllPosts(props: PostsProps) {
+export default function AllPosts(props: PostsDataProps) {
 	return (
 		<section className={classes.posts}>
 			<h1>All Posts</h1>
