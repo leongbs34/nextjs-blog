@@ -1,7 +1,5 @@
 import { MongoClient } from 'mongodb';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import * as dotenv from 'dotenv';
-dotenv.config();
 
 interface ExtendedNextApiRequest extends NextApiRequest {
 	body: FormBody;
