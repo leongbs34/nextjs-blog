@@ -100,9 +100,7 @@ export default function ContactForm() {
 							id='email'
 							required
 							value={email}
-							onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-								setEmail(event.target.value)
-							}
+							onChange={event => setEmail(event.target.value)}
 						/>
 					</div>
 					<div className={classes.control}>
@@ -112,9 +110,7 @@ export default function ContactForm() {
 							id='name'
 							required
 							value={name}
-							onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-								setName(event.target.value)
-							}
+							onChange={event => setName(event.target.value)}
 						/>
 					</div>
 				</div>
@@ -125,9 +121,7 @@ export default function ContactForm() {
 						rows={5}
 						value={message}
 						required
-						onChange={(event: React.ChangeEvent<HTMLTextAreaElement>) =>
-							setMessage(event.target.value)
-						}
+						onChange={event => setMessage(event.target.value)}
 					></textarea>
 				</div>
 				<div className={classes.action}>
